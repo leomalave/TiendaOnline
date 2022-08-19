@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mogollon ~ Te Cambia! </title>
+
+<!-- Google fonts -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600&family=Lato:wght@300&family=Mouse+Memoirs&display=swap" rel="stylesheet">
+
+<!-- Box icons -->
+
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+
+<link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+<!--Navegation-->
+<nav class="nav">
+    <div class="nav__center container">
+        <div class="nav__logo">
+            <h1>Mogollon <img src="imagen/mogollon-logo.png"><span>Te Cambia</span></h1>
+        </div>
+        <ul class="nav__list">
+        <span>
+        <i class='bx bx-home'></i>
+        </span>
+        <div class="carrito__icon">
+        <i class="bx bx-cart"></i>
+        <span class="item__total">0</span>
+        </div>
+        </ul>
+    </div>
+</nav>
+
+    <!-- Filter -->
+    <section class="filter">
+        <div class="grid">
+            <div class="div">
+                <label for="buscar"><span><i class="bx bx-search"></i></span></label>
+                <input type="text" id="buscar" placeholder="¿Qué servicio deseás?">
+            </div>
+            <div class="category">
+                <select id="category">
+                    <option value="1">$100,00</option>
+                    <option value="2">$70,00</option>
+                    <option value="3">$60,00</option>
+                    <option value="4">$50,00</option>
+                    <option value="5">$40,00</option>
+                    <option value="6">$30,00</option>
+                    <option value="7">$20,00</option>
+                    <option value="8">$10,00</option>
+                    <option value="9">$5,00</option>
+                    <option value="10">$1,00</option>
+                    <option value="11">$0,10</option>
+                    <option value="12">$0,01</option>
+
+                </select>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--Products-->
+
+    <section class="productos">
+        <div class="productos__center"> 
+            <div class="producto">
+                <div class="image__container">
+                    <img src="imagen/wordpress.jpg" alt="">
+                </div>
+                <div class="producto_footer">
+                    <h1>Diseño de Blog/Tienda WordPress</h1>
+                    <div class="rating">
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bx-star"></i>
+                        </span>
+                    </div>
+                </div>    
+                    <div class="price">$100,00</div>
+                <div class="bottom">
+                    <div class="btn__group">
+                        <a href="#" class="btn addToCart">Añadir al Carrito</a>
+                        <a href="productos-detalles.html" class="btn view">Vista</a>
+                    </div>
+                </div>    
+            </div>
+            <div class="producto">
+                <div class="image__container">
+                    <img src="imagen/asesoriaigfbads.jpg" alt="">
+                </div>
+                <div class="producto_footer">
+                    <h1>Asesoría IG + FB ads</h1>
+                    <div class="rating">
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bx-star"></i>
+                        </span>
+                    </div>
+                </div>    
+                    <div class="price">$70,00</div>
+                <div class="bottom">
+                    <div class="btn__group">
+                        <a href="#" class="btn addToCart">Añadir al Carrito</a>
+                        <a href="#" class="btn view">Vista</a>
+                    </div>
+                </div>    
+            </div>
+            <div class="producto">
+                <div class="image__container">
+                    <img src="imagen/comboflyers.jpg" alt="">
+                </div>
+                <div class="producto_footer">
+                    <h1 style="text-align: center;">Combo Flyers</h1>
+                    <div class="rating">
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bx-star"></i>
+                        </span>
+                    </div>
+                </div>    
+                    <div class="price">$60,00</div>
+                <div class="bottom">
+                    <div class="btn__group">
+                        <a href="#" class="btn addToCart">Añadir al Carrito</a>
+                        <a href="#" class="btn view">Vista</a>
+                    </div>
+                </div>    
+            </div>
+            <div class="producto">
+                <div class="image__container">
+                    <img src="imagen/asesoriaigads.png" alt="">
+                </div>
+                <div class="producto_footer">
+                    <h1>Asesoría IG ads.</h1>
+                    <div class="rating">
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bx-star"></i>
+                        </span>
+                    </div>
+                </div>    
+                    <div class="price">$50,00</div>
+                <div class="bottom">
+                    <div class="btn__group">
+                        <a href="#" class="btn addToCart">Añadir al Carrito</a>
+                        <a href="#" class="btn view">Vista</a>
+                    </div>
+                </div>    
+            </div>
+            <div class="producto">
+                <div class="image__container">
+                    <img src="imagen/disenologovintage.png" alt="">
+                </div>
+                <div class="producto_footer">
+                    <h1>Diseño de logo Vintage</h1>
+                    <div class="rating">
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bx-star"></i>
+                        </span>
+                    </div>
+                </div>    
+                    <div class="price">$40,00</div>
+                <div class="bottom">
+                    <div class="btn__group">
+                        <a href="#" class="btn addToCart">Añadir al Carrito</a>
+                        <a href="#" class="btn view">Vista</a>
+                    </div>
+                </div>    
+            </div>
+            <div class="producto">
+                <div class="image__container">
+                    <img src="imagen/logominimalista.png" alt="">
+                </div>
+                <div class="producto_footer">
+                    <h1 style="text-align: center;">Diseño de Logo Minimalista</h1>
+                    <div class="rating">
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bx-star"></i>
+                        </span>
+                    </div>
+                </div>    
+                    <div class="price">$30,00</div>
+                <div class="bottom">
+                    <div class="btn__group">
+                        <a href="#" class="btn addToCart">Añadir al Carrito</a>
+                        <a href="#" class="btn view">Vista</a>
+                    </div>
+                </div>    
+            </div>
+            <div class="producto">
+                <div class="image__container">
+                    <img src="imagen/ediciondefotos.png" alt="">
+                </div>
+                <div class="producto_footer">
+                    <h1>Edición de Fotos</h1>
+                    <div class="rating">
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bx-star"></i>
+                        </span>
+                    </div>
+                </div>    
+                    <div class="price">$20,00</div>
+                <div class="bottom">
+                    <div class="btn__group">
+                        <a href="#" class="btn addToCart">Añadir al Carrito</a>
+                        <a href="#" class="btn view">Vista</a>
+                    </div>
+                </div>    
+            </div>
+            <div class="producto">
+                <div class="image__container">
+                    <img src="imagen/logosencillo.png" alt="">
+                </div>
+                <div class="producto_footer">
+                    <h1 style="text-align: center;">Logo Sencillo</h1>
+                    <div class="rating">
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bx-star"></i>
+                        </span>
+                    </div>
+                </div>    
+                    <div class="price">$10,00</div>
+                <div class="bottom">
+                    <div class="btn__group">
+                        <a href="#" class="btn addToCart">Añadir al Carrito</a>
+                        <a href="#" class="btn view">Vista</a>
+                    </div>
+                </div>    
+            </div>
+            <div class="producto">
+                <div class="image__container">
+                    <img src="imagen/redacciondearticulos.png" alt="">
+                </div>
+                <div class="producto_footer">
+                    <h1>Redacción de Artículos</h1>
+                    <div class="rating">
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bx-star"></i>
+                        </span>
+                    </div>
+                </div>    
+                    <div class="price">$5,00</div>
+                <div class="bottom">
+                    <div class="btn__group">
+                        <a href="#" class="btn addToCart">Añadir al Carrito</a>
+                        <a href="#" class="btn view">Vista</a>
+                    </div>
+                </div>    
+            </div>
+            <div class="producto">
+                <div class="image__container">
+                    <img src="imagen/captionparapost.png" alt="">
+                </div>
+                <div class="producto_footer">
+                    <h1 style="text-align: center;">Caption para post IG/FB</h1>
+                    <div class="rating">
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bx-star"></i>
+                        </span>
+                    </div>
+                </div>    
+                    <div class="price">$1,00</div>
+                <div class="bottom">
+                    <div class="btn__group">
+                        <a href="#" class="btn addToCart">Añadir al Carrito</a>
+                        <a href="#" class="btn view">Vista</a>
+                    </div>
+                </div>    
+            </div>
+            <div class="producto">
+                <div class="image__container">
+                    <img src="imagen/hastagsig.png" alt="">
+                </div>
+                <div class="producto_footer">
+                    <h1 style="text-align: center;">Hashtags IG</h1>
+                    <div class="rating">
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bx-star"></i>
+                        </span>
+                    </div>
+                </div>    
+                    <div class="price">$0,10</div>
+                <div class="bottom">
+                    <div class="btn__group">
+                        <a href="#" class="btn addToCart">Añadir al Carrito</a>
+                        <a href="#" class="btn view">Vista</a>
+                    </div>
+                </div>    
+            </div>
+            <div class="producto">
+                <div class="image__container">
+                    <img src="imagen/whatsappsticker.png" alt="">
+                </div>
+                <div class="producto_footer">
+                    <h1> WhatsApp Sticker</h1>
+                    <div class="rating">
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bxs-star"></i>
+                        </span>
+                        <span>
+                            <i class="bx bx-star"></i>
+                        </span>
+                    </div>
+                </div>    
+                    <div class="price">$0,01</div>
+                <div class="bottom">
+                    <div class="btn__group">
+                        <a href="#" class="btn addToCart">Añadir al Carrito</a>
+                        <a href="#" class="btn view">Vista</a>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>    
+    
+    <!-- Carrito -->   
+
+    <section class="carrito__overlay">
+        <div class="carrito">
+            <span class="close_carrito">
+                <i class="bx bx-x"></i>
+            </span>
+            <h1>Su Carrito</h1>
+
+            <div class="carrito_center">
+
+                <div class="carrito__item">
+                    <!-- <img src="image__container"> -->
+                    <img src="imagen/asesoriaigfbads.jpg" alt="">
+                    <div>
+                        <h3>Relojes Originales</h3>
+                        <p class="price">$122</p>
+                    </div>
+                    <div>    
+                        <span>
+                            <i class="bx bxs-up-arrow"></i>
+                        </span>
+                        <p>1</p>
+                        <span>
+                            <i class="bx bxs-down-arrow"></i>
+                        </span>
+                    </div>
+                    <div>
+                        <span class="remove__item">
+                            <i class="bx bx-trash"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="carrito__item">
+                    <!-- <img src="image__container"> -->
+                    <img src="imagen/asesoriaigfbads.jpg" alt="">
+                    <div>
+                        <h3>Relojes Originales</h3>
+                        <p class="price">$122</p>
+                    </div>
+                    <div>    
+                        <span>
+                            <i class="bx bxs-up-arrow"></i>
+                        </span>
+                        <p>1</p>
+                        <span>
+                            <i class="bx bxs-down-arrow"></i>
+                        </span>
+                    </div>
+                    <div>
+                        <span class="remove__item">
+                            <i class="bx bx-trash"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="carrito__item">
+                    <!-- <img src="image__container"> -->
+                    <img src="imagen/asesoriaigfbads.jpg" alt="">
+                    <div>
+                        <h3>Relojes Originales</h3>
+                        <p class="price">$122</p>
+                    </div>
+                    <div>    
+                        <span>
+                            <i class="bx bxs-up-arrow"></i>
+                        </span>
+                        <p>1</p>
+                        <span>
+                            <i class="bx bxs-down-arrow"></i>
+                        </span>
+                    </div>
+                    <div>
+                        <span class="remove__item">
+                            <i class="bx bx-trash"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="carrito__item">
+                    <!-- <img src="image__container"> -->
+                    <img src="imagen/asesoriaigfbads.jpg" alt="">
+                    <div>
+                        <h3>Relojes Originales</h3>
+                        <p class="price">$122</p>
+                    </div>
+                    <div>    
+                        <span>
+                            <i class="bx bxs-up-arrow"></i>
+                        </span>
+                        <p>1</p>
+                        <span>
+                            <i class="bx bxs-down-arrow"></i>
+                        </span>
+                    </div>
+                    <div>
+                        <span class="remove__item">
+                            <i class="bx bx-trash"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="carrito__footer">
+                    <h3>Total: $ <span class="carrito__total">0</span></h3>
+                    <button class="clear__carrito btn">remover carrito</button>  
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
