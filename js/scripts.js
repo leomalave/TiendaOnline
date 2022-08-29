@@ -1,0 +1,4 @@
+class Productos {
+    async getProductos() {
+    }
+}
